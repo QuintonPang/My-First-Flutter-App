@@ -139,7 +139,7 @@ class Home extends StatelessWidget { // stateless widget means the state of widg
                 flex: 2,
                 child: Image.asset('assets/plant.png')
             ),
-            Expanded( // same as flex grow
+            Expanded( // expanded is same as flex grow
               flex: 4,
               child: Container(
                 padding:EdgeInsets.all(20.0),
